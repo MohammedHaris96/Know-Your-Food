@@ -1,0 +1,61 @@
+#navbar {
+  display: flex;
+  border: 8px solid red;
+  border-style: outset;
+  padding: 5px;
+  margin: 20px;
+  color: white;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+#banner {
+  height: 600px;
+  width: auto;
+  margin: 20px;
+  border: solid 1px red;
+  box-shadow: rgb(226, 13, 13, 0.5) 3px 3px 6px 0px inset,
+    rgba(226, 13, 13, 0.5) -3px -3px 6px 1px inset;
+}
+
+.bannerImage {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.card-img-top {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  padding: 5px;
+}
+
+#navFilter {
+  display: flex;
+  border: 8px solid red;
+  border-style: outset;
+  list-style: none;
+  margin: 20px;
+  padding: 5px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+#template {
+  height: auto;
+  margin: 20px;
+  padding: 20px;
+  border: solid 1px red;
+  box-shadow: rgb(226, 13, 13, 0.5) 3px 3px 6px 0px inset,
+    rgba(226, 13, 13, 0.5) -3px -3px 6px 1px inset;
+  border-radius: 15px;
+}
+
+#btnSubmit {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
