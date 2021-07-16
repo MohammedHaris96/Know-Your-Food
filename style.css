@@ -1,19 +1,25 @@
 #navbar {
   display: flex;
-  border: 8px solid red;
+
+  border: 2px solid red;
   border-style: outset;
   padding: 5px;
   margin: 20px;
   color: white;
-  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
-    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  box-shadow: rgb(243, 123, 119) 3px 3px 6px 0px inset,
+    rgba(247, 0, 0, 0.5) -3px -3px 6px 1px inset;
+}
+
+.nav {
+  display: flex;    
+  align-items: baseline;
 }
 
 #banner {
   height: 600px;
   width: auto;
   margin: 20px;
-  border: solid 1px red;
+  border: solid 1px white;
   box-shadow: rgb(226, 13, 13, 0.5) 3px 3px 6px 0px inset,
     rgba(226, 13, 13, 0.5) -3px -3px 6px 1px inset;
 }
@@ -31,17 +37,19 @@
   width: 100%;
   object-fit: cover;
   padding: 5px;
+  border-radius: 15px;
+  cursor: pointer;
 }
 
 #navFilter {
   display: flex;
-  border: 8px solid red;
+  border: 2px solid red;
   border-style: outset;
   list-style: none;
   margin: 20px;
   padding: 5px;
-  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
-    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  box-shadow: rgb(243, 123, 119) 3px 3px 6px 0px inset,
+    rgba(247, 0, 0, 0.5) -3px -3px 6px 1px inset;
 }
 
 #template {
@@ -58,4 +66,25 @@
   display: flex;
   justify-content: space-around;
   margin: 50px;
+}
+.card {
+  border: 1px solid rgba(226, 13, 13, 0.5);
+  border-radius: 15px;
+  box-shadow: rgba(247, 10, 10, 0.35) 0px -50px 36px -28px inset;
+}
+
+.card-title,
+.card-text {
+  display: flex;
+  justify-content: center;
+}
+
+.card-body {
+  border: 1px solid rgba(226, 13, 13, 0.5);
+  border-radius: 15px;
+  margin: 20px;
+}
+
+i {
+  color: red;
 }
